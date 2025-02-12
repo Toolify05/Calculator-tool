@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="A modern, interactive calculator tool with beautiful animations and responsive design">
+    <meta name="keywords" content="calculator, modern design, interactive, animations, responsive">
+    <meta property="og:title" content="Modern Interactive Calculator">
+    <meta property="og:description" content="Experience a beautifully designed calculator with smooth animations">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Modern Interactive Calculator</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky-nav fade-in">
+        <div class="logo">Calculator</div>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Modern Calculator</h1>
+            <p class="fade-in">Experience calculation with style and elegance</p>
+            <a href="#calculator" class="cta-button scale-in">Try Now</a>
+        </div>
+        <div class="hero-shapes"></div>
+    </header>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="tool-section">
+        <div class="section-container">
+            <h2 class="fade-in">Calculator</h2>
+            <div class="calculator scale-in">
+                <input type="text" id="display" disabled value="0">
+                <div class="buttons">
+                    <button class="operator">C</button>
+                    <button class="operator">±</button>
+                    <button class="operator">%</button>
+                    <button class="operator">/</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="operator">*</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="operator">-</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="operator">+</button>
+                    <button class="span-2">0</button>
+                    <button>.</button>
+                    <button class="operator">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="fade-in">About</h2>
+            <div class="features">
+                <div class="feature-card scale-in">
+                    <h3>Modern Design</h3>
+                    <p>Clean and intuitive interface with smooth animations</p>
+                </div>
+                <div class="feature-card scale-in">
+                    <h3>Responsive</h3>
+                    <p>Works perfectly on all devices and screen sizes</p>
+                </div>
+                <div class="feature-card scale-in">
+                    <h3>Interactive</h3>
+                    <p>Engaging animations and satisfying feedback</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section fade-in">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section fade-in">
+                <h3>Connect</h3>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="GitHub">GitHub</a></li>
+                    <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright fade-in">
+            <p>&copy; 2025 Modern Calculator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
