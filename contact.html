@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Modern Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-calculator"></i>
+                <span>Morden Calculator</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+    <div class="content-section fade-in">
+        <div class="container">
+            <h1><i class="fas fa-envelope icon-feature"></i> Contact Us</h1>
+            <div class="content-card">
+                <div class="contact-info">
+                    <h3><i class="fas fa-map-marker-alt icon-contact"></i> Location</h3>
+                    <p>Mumbai, Maharashtra, India</p>
+                    
+                    <h3><i class="fas fa-envelope icon-contact"></i> Email</h3>
+                    <p>webtools0505@gmail.com</p>
+                    
+                    <h3><i class="fas fa-clock icon-contact"></i> Business Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <h2><i class="fas fa-paper-plane"></i> Send us a Message</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label><i class="fas fa-user"></i> Name:</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-envelope"></i> Email:</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-comment"></i> Message:</label>
+                        <textarea rows="5" required></textarea>
+                    </div>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2><i class="fas fa-info-circle"></i> About</h2>
+                <p>Morden Calculator is a free online tool to calculate multiple numbers this is the morden calculator for the best use.</p>
+                <p><i class="fas fa-envelope"></i> Contact: webtools0505@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h2><i class="fas fa-tools"></i> Tools & Features</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-calculator"></i> Morden Calculator</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2><i class="fas fa-gavel"></i> Legal & Info</h2>
+                <ul>
+                    <li><a href="terms.html"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+                    <li><a href="privacy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                    <li><a href="dmca.html"><i class="fas fa-copyright"></i> DMCA Notice</a></li>
+                    <li><a href="disclaimer.html"><i class="fas fa-exclamation-circle"></i> Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>  Morden Calculator. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to Update Copyright Year -->
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
