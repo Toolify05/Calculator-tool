@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morden Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-calculator"></i>
+                <span>Morden Calculator</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav fade-in">
+        <div class="logo">Calculator</div>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Modern Calculator</h1>
+            <p class="fade-in">Experience calculation with style and elegance</p>
+            <a href="#calculator" class="cta-button scale-in">Try Now</a>
+        </div>
+        <div class="hero-shapes"></div>
+    </header>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="tool-section">
+        <div class="section-container">
+            <h2 class="fade-in">Calculator</h2>
+            <div class="calculator scale-in">
+                <input type="text" id="display" disabled value="0">
+                <div class="buttons">
+                    <button class="operator">C</button>
+                    <button class="operator">±</button>
+                    <button class="operator">%</button>
+                    <button class="operator">/</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="operator">*</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="operator">-</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="operator">+</button>
+                    <button class="span-2">0</button>
+                    <button>.</button>
+                    <button class="operator">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="fade-in">About</h2>
+            <div class="features">
+                <div class="feature-card scale-in">
+                    <h3>Modern Design</h3>
+                    <p>Clean and intuitive interface with smooth animations</p>
+                </div>
+                <div class="feature-card scale-in">
+                    <h3>Responsive</h3>
+                    <p>Works perfectly on all devices and screen sizes</p>
+                </div>
+                <div class="feature-card scale-in">
+                    <h3>Interactive</h3>
+                    <p>Engaging animations and satisfying feedback</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2><i class="fas fa-info-circle"></i> About</h2>
+                <p>Morden Calculator is a free online tool to calculate multiple numbers this is the morden calculator for the best use.</p>
+                <p><i class="fas fa-envelope"></i> Contact: webtools0505@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h2><i class="fas fa-tools"></i> Tools & Features</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-calculator"></i> Morden Calculator</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2><i class="fas fa-gavel"></i> Legal & Info</h2>
+                <ul>
+                    <li><a href="terms.html"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+                    <li><a href="privacy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                    <li><a href="dmca.html"><i class="fas fa-copyright"></i> DMCA Notice</a></li>
+                    <li><a href="disclaimer.html"><i class="fas fa-exclamation-circle"></i> Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>  <span id="year"></span> Morden Calculator. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
